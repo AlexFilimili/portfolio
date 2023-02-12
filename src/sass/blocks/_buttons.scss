@@ -1,0 +1,28 @@
+.btn {
+    display: grid;
+    background-color: $main-color;
+    width: 135px;
+    height: 45px;
+    place-content: center center;
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-family: 'Poppins 500';
+    &:hover {
+        color: black;
+        box-shadow: inset 400px 0 0 0 rgb(159, 102, 212);
+    }
+    &__WithoutBg {
+        background-color: transparent;
+        box-shadow: none;
+        transition: all 0.4s;
+        &::after {
+            content:'About me';
+        }
+        &:hover::after {
+            content:'Click';
+            font-weight: 700; 
+        }
+    }
+}

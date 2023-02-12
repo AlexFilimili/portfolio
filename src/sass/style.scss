@@ -1,13 +1,23 @@
+@import "libs/bootstrap-reboot.min.css";
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins 500', sans-serif;
 }
 
-    @import "mixins";
-    @import "variables";
-    @import "general";
-    @import "fonts";
-    @import "media";
+@import "base/variables";
+@import "base/mixins"; /* Миксины всегда должны идти после переменных */
 
+@import "base/fonts";
+@import "blocks/promo";
+@import "blocks/titles";
+@import "blocks/buttons";
+@import "blocks/menu";
+@import "blocks/about";
+@import "base/media";
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
 
 
 /* тут определяем общий шрифт и соединяем все файлы в один */
