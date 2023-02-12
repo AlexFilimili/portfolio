@@ -1,0 +1,105 @@
+.resume {
+    &__title {
+        text-align: center;
+        font-weight: 700;
+    }
+    &__subtitle {
+        text-align: center;
+    }
+    &__circle {
+        position: relative;
+        @include border-circle;
+        &:before {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    .divider {
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    &__wrapper {
+        padding: 60px 72px 0 72px;
+        display: grid;
+        grid-template-columns: 418px 418px;
+        column-gap: 143px;
+    }
+    &__column {
+
+        &-item {
+            padding-left: 43px;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: '';
+                width: 44px;
+                height: 1px;
+                background-color: #000;
+                top: 17px ;
+                left: 0;
+
+            }
+            &-circle {
+                @include border-circle;
+                &:before {
+                    top: 0;
+                    left: 44px;
+                }                
+            }            
+            &-head {
+                padding-left: 56px;
+                
+            }
+            img {
+                position: absolute;
+                top: 14px;
+                left: 61px;
+
+            }
+        }
+        &-title {
+            padding-left: 43px;
+            font-weight: 700;
+            font-size: 20px;   
+            position: relative;
+            &::before {
+                position: absolute;
+                left: -7px;
+                top: 50%;
+                transform: translateY(-50%);
+                content:'';
+                height: 15px;
+                width: 15px;
+                border-radius: 100%;
+                background-color: $main-color;
+            } 
+        }
+        ul {
+            padding-left: 0;
+            margin-bottom: 0;
+        }        
+        li {
+            list-style-type: none;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: '';
+                left: 0;
+                top: -52px;
+                height: calc(100% + 52px);
+                width: 1px;
+                background-color:#000;
+            }
+        }
+        &-item-title {
+            font-weight: 700;
+        }
+        &-item-head {
+            margin-top: 45px;
+        }
+        &-item-body {
+            margin-top: 12px;            
+        }
+        
+    }
+}

@@ -1,13 +1,21 @@
 .title {
     font-family: 'Poppins 500';
+    &__fz12 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    &__fz14 {
+        font-size: 14px;
+        line-height: 21px;  
+    }
     &__fz16 {
         font-size: 16px;
         line-height: 24px;
         z-index: 0;
     }
-    &__fz14 {
-        font-size: 14px;
-        line-height: 21px;  
+    &__fz36 {
+        font-size: 36px;
+        font-weight: 700;
     }
 }
 .title__main {

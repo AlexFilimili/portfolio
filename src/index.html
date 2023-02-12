@@ -23,7 +23,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/src/icons/Uber_favicon_2.png" type="image/png"> <!-- подключи иконку во вкладке браузера -->
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css"> <!-- сбрось стили браузера -->
     <link rel="stylesheet" href="css/style.min.css"> <!-- подключи свои стили css -->
 
     <link rel="apple-touch-icon" sizes="57x57" href="icons/favicons/apple-icon-57x57.png">
@@ -84,7 +83,7 @@
   <section class="promo">
     <div class="container">
       <div class="title title__fz16 promo__circle">My name is Aleksandr Filimonov</div>
-      <div class="title__main">I'm web developer<br> from Moscow</div>
+      <h1 class="title__main">I'm web developer<br> from Moscow</h1>
       <div class="promo__btns">
         <a href="#" class="btn title__fz16">Protfolio</a>
         <a href="#" class="btn title__fz16 btn__WithoutBg"></a>
@@ -101,21 +100,21 @@
       <div class="About_me__container">
         <div class="About_me__foto"><img src="img/f2.webp" alt="foto"></div>
         <div class="About_me__info">
-          <div class="About_me__info_subtitle title__fz16 promo__circle">About me</div>
-          <div class="About_me__info_title">My name is Aleksandr</div>
-          <div class="About_me__info-divider"></div>
-          <div class="About_me__info_text title__fz14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
+          <h2 class="About_me__info_subtitle title__fz16 promo__circle">About me</h2>
+          <div class="About_me__info_title title__fz36">My name is Aleksandr</div>
+          <div class="divider"></div>
+          <p class="About_me__info_text title__fz14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
         </div>
         <div class="About_me__skills_block">
           <div class="About_me__skills_block-item">
             <div class="About_me__skills_block-subtitle About_me__circle title__fz14">Web development</div>
             <div class="About_me__skills_block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-            <div class="About_me__skills_block-img"><img src="icons/web development.svg" alt=""></div>
+            <div class="About_me__skills_block-img"><img src="icons/web development.svg" alt="web development"></div>
           </div>
           <div class="About_me__skills_block-item">
             <div class="About_me__skills_block-subtitle About_me__circle title__fz14">App Development</div>
             <div class="About_me__skills_block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-            <div class="About_me__skills_block-img"><img src="icons/Mobile dev.svg" alt=""></div>
+            <div class="About_me__skills_block-img"><img src="icons/Mobile dev.svg" alt="app development"></div>
           </div>
           <div class="About_me__skills_block-item">
             <div class="About_me__skills_block-subtitle About_me__circle title__fz14">UI/UX Design</div>
@@ -127,6 +126,67 @@
 
     </div>
 
+  </section>
+  <section class="resume">
+    <div class="container">
+      <h2 class="title title__fz16 resume__title resume__circle">Experience</h2>
+      <div class="resume__subtitle title__fz36">What can I do for you</div>
+      <div class="divider"></div>
+      <div class="resume__wrapper">
+        <div class="resume__column">
+          <div class="resume__column-title">Education</div>
+          <ul>
+            <li>
+              <div class="resume__column-item">
+                <div class="resume__column-item-head resume__column-item-circle resume__column-item-circle">
+                  <div class="resume__column-item-title title__fz14">Bauman Moscow State Technical University</div>
+                  <div class="resume__column-item-subtitle title__fz12">Master's Diploma | Moscow (2014-2020)</div>
+                  
+                </div>
+                <img src="icons/University.svg" alt="">
+                <div class="resume__column-item-body title__fz12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. </div>              
+              </div>
+            </li>
+            <li>
+              <div class="resume__column-item">
+                <div class="resume__column-item-head resume__column-item-circle">
+                  <div class="resume__column-item-title title__fz14">Udemy</div>
+                  <div class="resume__column-item-subtitle title__fz12">Web development courses</div>
+                  <img src="icons/University.svg" alt="">
+                </div>
+                <div class="resume__column-item-body title__fz12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. </div>              
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="resume__column">
+          <div class="resume__column-title">Work experience</div>
+          <ul>
+            <li>
+              <div class="resume__column-item">
+                <div class="resume__column-item-head resume__column-item-circle">
+                  <div class="resume__column-item-title title__fz14">Front-End Developer</div>
+                  <div class="resume__column-item-subtitle title__fz12">EPAM | Москва (2018-2019)</div>
+                  <img src="icons/University.svg" alt="">
+                </div>
+                <div class="resume__column-item-body title__fz12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. </div>              
+              </div>
+            </li>
+            <li>
+              <div class="resume__column-item">
+                <div class="resume__column-item-head resume__column-item-circle">
+                  <div class="resume__column-item-title title__fz14">UI/UX Designer</div>
+                  <div class="resume__column-item-subtitle title__fz12">Squad Team | Москва (2018)</div>
+                  <img src="icons/University.svg" alt="">
+                </div>
+                <div class="resume__column-item-body title__fz12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. </div>              
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
   </section>
   
    
