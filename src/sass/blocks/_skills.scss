@@ -1,0 +1,50 @@
+.skills {
+    &__block {
+        margin: 0 auto;
+        padding: 60px 0 120px 0;
+        display: grid;
+        justify-content: center;
+        grid-template: repeat(2, 270px) / repeat(4, 270px);
+        gap: 13px;
+    }
+    &__item {
+        position: relative;
+        padding: 30px 30px 30px 25px;
+        border: 1px solid #000;
+        img {
+            position: absolute;
+        }
+        &-title {
+            margin-top: 85px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+    }
+    &__percentages {
+        display: grid;
+        grid-template: repeat(2, 61px) / repeat(3, 1fr);
+        column-gap: 45px;
+        row-gap: 38px;
+        &-item {
+            position: relative;
+            &-title {
+                font-weight: 700;
+                padding-left: 13px;
+            }
+            &-value {
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-weight: 700;
+            }
+        }
+    }
+    &__circle {
+        position: relative;
+        @include border-circle;
+        &::before {
+            top: -8px;
+            left: 0;
+        }        
+    }
+}

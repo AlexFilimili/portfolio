@@ -13,18 +13,35 @@
 @import "blocks/menu";
 @import "blocks/about";
 @import "blocks/resume";
+@import "blocks/skills";
+@import "blocks/portfolio";
 @import "base/media";
 
 .container {
     width: 1140px;
     margin: 0 auto;
 }
+.titles_for_3-4-5-6_screens {
+    text-align: center;
+    font-weight: 700;
+}
+.subtitles_for_3-4-5-6_screens {
+    text-align: center;
+}
+.circles__for_3-4-5-6_screens {
+    position: relative;
+    @include border-circle;
+    &:before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
 .divider {
+    margin: 25px auto 0;
     width: 60px;
     height: 3px;
     background-color: $main-color;    
 }
-
 
 /* тут определяем общий шрифт и соединяем все файлы в один */
  

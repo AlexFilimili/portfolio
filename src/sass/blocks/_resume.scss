@@ -1,19 +1,4 @@
-.resume {
-    &__title {
-        text-align: center;
-        font-weight: 700;
-    }
-    &__subtitle {
-        text-align: center;
-    }
-    &__circle {
-        position: relative;
-        @include border-circle;
-        &:before {
-            left: 50%;
-            transform: translateX(-50%);
-        }
-    }
+.resume {    
     .divider {
         margin: 0 auto;
         margin-top: 25px;
