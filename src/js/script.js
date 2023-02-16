@@ -11,5 +11,11 @@ closeElem.addEventListener('click', () => {
     menu.classList.remove('active');
 });
 
+const 
+    counters = document.querySelectorAll('.skills__percentages-item-value'),
+    lines = document.querySelectorAll('.skills__percentages-item-line-purple')
 
+    counters.forEach( (item, i) => {
+        lines[i].style.width = item.innerHTML;
+    });
     

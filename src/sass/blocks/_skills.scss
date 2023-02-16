@@ -27,6 +27,21 @@
         row-gap: 38px;
         &-item {
             position: relative;
+            &-line-gray {
+                height: 14px; 
+                width: 100%; 
+                background-color: #E8E4DE;            
+                position: absolute;
+                bottom: 0;
+                border-radius: 5px;
+            }
+            &-line-purple {
+                height: 14px; 
+                background-color: #8a3fbd;
+                position: absolute;
+                bottom: 0;
+                border-radius: 5px;  
+            }
             &-title {
                 font-weight: 700;
                 padding-left: 13px;
