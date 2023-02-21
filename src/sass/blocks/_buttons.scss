@@ -9,6 +9,7 @@
     transition: all 0.4s;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     font-family: 'Poppins 500';
+    box-shadow: none;
     &:hover {
         color: black;
         box-shadow: inset 400px 0 0 0 rgb(159, 102, 212);
