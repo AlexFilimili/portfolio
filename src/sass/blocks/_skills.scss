@@ -1,10 +1,13 @@
 .skills {
+    .title {
+        margin-bottom: 8px;
+    }    
     &__block {
         margin: 0 auto;
         padding: 60px 0 120px 0;
         display: grid;
         justify-content: center;
-        grid-template: repeat(2, 270px) / repeat(4, 270px);
+        grid-template: repeat(2, 270px) / repeat(auto-fill, 270px);
         gap: 13px;
     }
     &__item {

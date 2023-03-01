@@ -2,9 +2,10 @@
     &__wrapper {
         margin-top: 63px;
         display: grid;
-        grid-template: repeat(3, 44px) / repeat(2, 365px);
-        justify-content: space-between;
+        grid-template: repeat(3, minmax(44px, auto)) / repeat(2, 365px);
+        justify-content: space-around;
         grid-auto-flow: column;
+        grid-auto-rows: 44px;
         row-gap: 15px;
     }
     &__item {
