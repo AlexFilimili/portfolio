@@ -2,6 +2,10 @@
 <html lang="en"> <!-- язык сайта -->
   <head>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.min.css"> <!-- подключи свои стили css -->
+
     <!-- Primary Meta Tags -->
     <title>Web developer Alexander Filimonov</title>
     <meta name="title" content="Frontend web developer services">
@@ -20,11 +24,6 @@
     <meta property="twitter:description" content="Why you need to deal with me. Fast website loading, optimization, troubleshooting, Fix bugs.">
     <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
     
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="/src/icons/Uber_favicon_2.png" type="image/png"> <!-- подключи иконку во вкладке браузера -->
-    <link rel="stylesheet" href="css/style.min.css"> <!-- подключи свои стили css -->
-
     <link rel="apple-touch-icon" sizes="57x57" href="icons/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="icons/favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="icons/favicons/apple-icon-72x72.png">
@@ -51,23 +50,23 @@
     <div class="menu">
       <div class="menu__block">
         <ul class="menu__list">
-          <li class="menu__item"><a href="#" class="menu__link">ABOUT ME</a></li>
-          <li class="menu__item"><a href="#" class="menu__link">MY EXPERIENCE</a></li>
-          <li class="menu__item"><a href="#" class="menu__link">MY SKILLS</a></li>
-          <li class="menu__item"><a href="#" class="menu__link">MY WORKS</a></li>
-          <li class="menu__item"><a href="#" class="menu__link">PRICE LIST</a></li>
-          <li class="menu__item"><a href="#" class="menu__link">CONTACTS</a></li>
-          <div class="menu__close"><img src="icons/Close.svg" alt="close" class="menu__close_img"></div>
-          <div class="menu__social">
-            <a href="" class="menu__social_link"><img src="icons/Facebook.svg" alt="Facebook"></a>
-            <a href="" class="menu__social_link"><img src="icons/Instagram.svg" alt="Instagram"></a>
-            <a href="" class="menu__social_link"><img src="icons/Github.svg" alt="Github"></a>
-          </div>
-
-      </div>
+          <li class="menu__item"><a href="#about" class="menu__link">ABOUT ME</a></li>
+          <li class="menu__item"><a href="#experience" class="menu__link">MY EXPERIENCE</a></li>
+          <li class="menu__item"><a href="#skills" class="menu__link">MY SKILLS</a></li>
+          <li class="menu__item"><a href="#works" class="menu__link">MY WORKS</a></li>
+          <li class="menu__item"><a href="#price" class="menu__link">PRICE LIST</a></li>
+          <li class="menu__item"><a href="#contacts" class="menu__link">CONTACTS</a></li>
+        </ul>         
       
-      </ul>
-      <div class="menu__overlay"></div>        
+        <div class="menu__close"><img src="icons/Close.svg" alt="close" class="menu__close_img"></div>
+        <div class="menu__social">
+          <a href="" class="menu__social_link"><img src="icons/Facebook.svg" alt="Facebook"></a>
+          <a href="" class="menu__social_link"><img src="icons/Instagram.svg" alt="Instagram"></a>
+          <a href="" class="menu__social_link"><img src="icons/Github.svg" alt="Github"></a>
+        </div>
+      </div>
+
+      <div class="menu__overlay"></div>
 
     </div>
   </nav>
@@ -111,7 +110,7 @@
       </div>
     </div>
   </section>
-  <section class="About_me">
+  <section id="about" class="About_me">
     <div class="container">
       <div class="About_me__container">
         <div class="About_me__foto"><img src="img/f2.webp" alt="foto"></div>
@@ -125,12 +124,12 @@
           <div class="About_me__skills_block-item">
             <div class="About_me__skills_block-subtitle About_me__circle title__fz14">Web development</div>
             <div class="About_me__skills_block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-            <div class="About_me__skills_block-img"><img src="icons/web development.svg" alt="web development"></div>
+            <div class="About_me__skills_block-img"><img src="icons/web_development.svg" alt="web development"></div>
           </div>
           <div class="About_me__skills_block-item">
             <div class="About_me__skills_block-subtitle About_me__circle title__fz14">App Development</div>
             <div class="About_me__skills_block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-            <div class="About_me__skills_block-img"><img src="icons/Mobile dev.svg" alt="app development"></div>
+            <div class="About_me__skills_block-img"><img src="icons/Mobile_dev.svg" alt="app development"></div>
           </div>
           <div class="About_me__skills_block-item">
             <div class="About_me__skills_block-subtitle About_me__circle title__fz14">UI/UX Design</div>
@@ -143,7 +142,7 @@
     </div>
 
   </section>
-<section class="resume">
+<section id="experience" class="resume">
     <div class="container">
       <h2 class="title title__fz16 titles_for_3-4-5-6_screens circles__for_3-4-5-6_screens">Experience</h2>
       <div class="subtitles_for_3-4-5-6_screens title__fz36">What can I do for you</div>
@@ -203,9 +202,9 @@
       </div>
     </div>    
   </section>
-  <section class="skills">
+  <section id="skills" class="skills">
     <div class="container">
-      <div class="title title__fz16 titles_for_3-4-5-6_screens circles__for_3-4-5-6_screens">Skills</div>
+      <h3 class="title title__fz16 titles_for_3-4-5-6_screens circles__for_3-4-5-6_screens">Skills</h3>
       <div class="subtitles_for_3-4-5-6_screens title__fz36">What I use in my work</div>
       <div class="divider"></div>
 
@@ -286,14 +285,14 @@
       </div>
     </div>
   </section>
-  <section class="portfolio">
+  <section id="works" class="portfolio">
     <div class="container">
       <h2 class="title title__fz16 titles_for_3-4-5-6_screens circles__for_3-4-5-6_screens">Portfolio</h2>
       <div class="subtitles_for_3-4-5-6_screens title__fz36">My works</div>
       <div class="divider"></div>
       <div class="portfolio__wrapper">
         <div class="portfolio__link"><a href="#"><img src="img/uber.webp" alt="uber"></a></div>
-        <div class="portfolio__link"><a href="#"><img src="img/pulse.webp" alt="pulse"></a></div>
+        <div class="portfolio__link"><a href="Pulse/"><img src="img/pulse.webp" alt="pulse"></a></div>
         <div class="portfolio__link"><a href="#"><img src="img/bread.webp" alt="bread"></a></div>
         <div class="portfolio__link plans"><a href="#"><img src="img/plans.webp" alt="plans"></a></div>
         <div class="portfolio__link"><a href="#"><img src="img/ipad.webp" alt="ipad"></a></div>
@@ -301,9 +300,9 @@
       </div>
     </div>
   </section>
-  <section class="price">
+  <section id="price" class="price">
     <div class="container">
-      <div class="title title__fz16 titles_for_3-4-5-6_screens circles__for_3-4-5-6_screens">Price list</div>
+      <h3 class="title title__fz16 titles_for_3-4-5-6_screens circles__for_3-4-5-6_screens">Price list</h3>
       <div class="divider"></div>
       <div class="price__wrapper">
         <div class="price__item">
@@ -340,7 +339,7 @@
       </div>
     </div>
   </section>
-  <section class="contacts">
+  <section id="contacts" class="contacts">
     <div class="container">
       <div class="contacts__wrapper">
         <div class="contacts__foto"><img src="img/f2.webp" alt="foto"></div>
@@ -356,7 +355,7 @@
             <a class="contacts__social-link"><img src="icons/Instagram-1.svg" alt="Instagram"></a>
           </div>
           <div class="contacts__connect-info title__fz14">Or leave your information and I'll write you myself:</div>
-          <form action="#">
+          <form id="send-form" action="#">
 
             <div class="contacts__input title__fz12">
               <input required name="name" id="text" type="text">
@@ -372,14 +371,15 @@
             </div>
             <div class="contacts__triggers">
               <div class="contacts__btn">
-                <button class="btn title__fz14">Send message</button>
+                <button data-modal="send" class="btn title__fz14">Send message</button>
               </div>
               <div class="contacts__policy title__fz14">
-                <input required type="checkbox">
+                <input required name="agree" id="agree" type="checkbox">
+                <label id="contacts_label" for="agree"></label>
                 <span>I agree to <a href="privacy.html" target="_blank">this privacy policy</a></span>
               </div> 
               
-            </div>
+            </div>            
                        
 
           </form>
@@ -388,9 +388,19 @@
       </div>
       
     </div>
+    <div class="contacts__thnx">      
+      <div class="contacts__thnx-title">Thank you</div>
+      <div class="divider"></div>
+      <div class="contacts__thnx-text">Your letter is received. Give me 10-15 minutes.</div>
+      <div class="contacts__close">&#10006;</div>
+    </div>
+    
   </section>
-  
-   
+  <div class="overlay"></div>
+
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>  
   <script src="js/script.js"></script>
+
 </body>
 </html>
